@@ -1,0 +1,9 @@
+ipykernel==5.3.4
+ipython==7.22.0
+ipython_genutils==0.2.0
+matplotlib==3.3.4
+matplotlib-base==3.3.4
+numpy==1.20.1
+numpy-base==1.20.1
+numpydoc==1.1.0
+pandas==1.2.4
