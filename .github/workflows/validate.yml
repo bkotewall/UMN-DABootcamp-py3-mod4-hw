@@ -23,6 +23,9 @@ jobs:
           enviroment-file: environment.yml
           python-version: 3.9
          
+      - name: check notebook state and make sure outputs and execution_count is removed
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+
       - name: Validate runnability
         run: |
           jupyter nbconvert --execute *.ipynb
