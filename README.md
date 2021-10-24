@@ -1,8 +1,12 @@
+Please refer to PyCitySchools_Challenge.ipynb for homework submission.
+The module playbook of which this is all derived from is in
+PyCitySchools_testing.ipynb
+
 # py3-mod4-hw:  Test scores and circumstances.  How are they correlated? 
 
 ## Overarching method and goals.
 
-1) We were given some data about students, schools and the test scores yielded
+We were given data about students, schools and the test scores yielded
 by the students.  From the source data we are to illustrate relationships
 between differing circumstances, e.g. different grades, different schools,
 different funding per student, with respect to the student test scores.  
@@ -14,16 +18,16 @@ dataframe queries.
 
 ### Methods employed in data cleanup in subsequent attempt
 
-2) In this assignment, we are to make the following adjustments:
+In this assignment, we are to make the following adjustments:
 
-   There was new information that the data from Thomas High School's test
-   grades may in fact be contaminated with academic misconduct.  We are to
-   remove the testing data for all 9th grade tests, reading and math and redo
-   the reporting we performed in Step 1.  We adjusted also for total
-   student attendance because we removed the 9th grade testing population from
-   our consideration.  Last but not least, we re tabulated much of the test
-   passing summary data and re-inserted them into the same data frames that
-   were calculated in the previous step.
+There was new information that the data from Thomas High School's test
+grades may in fact be contaminated with academic misconduct.  We are to
+remove the testing data for all 9th grade tests, reading and math and redo
+the reporting we performed in Step 1.  We adjusted also for total
+student attendance because we removed the 9th grade testing population from
+our consideration.  Last but not least, we re tabulated much of the test
+passing summary data and re-inserted them into the same data frames that
+were calculated in the previous step.
 
 ## Calculations performed:
 
