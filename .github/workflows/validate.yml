@@ -33,7 +33,7 @@ jobs:
 
       - name: Validate runnability
         run: |
-          jupyter nbconvert --execute *.ipynb
+          jupyter nbconvert --execute *.ipynb --to html
 
       # - name: Valudate unit test
       #  shell: bash -l {0}
